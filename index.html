@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #eee;
+            align-items: center;
+            text-align: center;
+
+        }
+/* 
+        *{
+            border: 2px solid black;
+        } */
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        /* ---------------------------- */
+        .flex {
+            display: flex;
+        }
+
+        .flex1 {
+            flex: 1;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .top1 {
+            width: 887px;
+            height: 306px;
+            background-image: url(./images/main.jpg);
+            font-size: 14px;
+        }
+
+        .kuanDu {
+            max-width: 887px;
+        }
+
+        .daoHang {
+            margin-top: 22px;
+            margin-right: 60px;
+        }
+
+        .daoHang a {
+            padding: 8px;
+            color: black;
+        }
+
+        .daoHang a:hover {
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body class="flex column zz" >
+    <div class="top1 flex" style="justify-content: flex-end;">
+        <div class="flex column daoHang">
+            <a href=""><img src="./images/all_001.gif" alt=""> 网站首页</a>
+            <a href=""><img src="./images/all_001.gif" alt=""> 关于我们</a>
+            <a href=""><img src="./images/all_001.gif" alt=""> 推荐品牌</a>
+            <a href=""><img src="./images/all_001.gif" alt=""> 茶艺人生</a>
+            <a href=""><img src="./images/all_001.gif" alt=""> 加盟信息</a>
+            <a href=""><img src="./images/all_001.gif" alt=""> 精美图库</a>
+        </div>
+    </div>
+    <div class="center flex kuanDu">
+        <div style="flex: 1;  text-align: justify;">
+            <h1>茶界新闻<br>—————————</h1>
+            <h2>网页设计考试            [2022年6月14日]</h2>
+            <b style="color: red;"> 发现自己真的啥都不会 <br> 哎后续修修补补<br>终于把这个网站做出来<br>哎<br>给自己留个回忆吧！</b>
+        </div>
+        <div style="flex: 2; ">
+            <h1>精品欣赏<span style="font-size: 12px;">[查看更多精彩]</span><br>—————————————————</h1>
+            <marquee behavior="alternate" direction="left" onMouseOver="this.stop()" onMouseOut="this.start()" >
+            <div class="flex" style="text-align: center;">
+                <div style="margin-right: 8px;"><img src="./images/j1.jpg" alt=""> <p>精美茶具</p>
+                </div>
+                <div style="margin-right: 8px;"><img src="./images/j2.jpg" alt=""> <p>功夫茶具</p>
+                </div>
+                <div style="margin-right: 8px;"><img src="./images/j3.jpg" alt=""> <p>精致茶具</p>
+                </div>
+                <div style="margin-right: 8px;"><img src="./images/1.jpg" alt=""> <p>精致茶具</p>
+                </div>
+                <div style="margin-right: 8px;"><img src="./images/5.jpg" alt=""> <p>精致茶具</p>
+                </div>
+
+            </div>
+                
+  
+
+            </marquee>
+        </div>
+        <div style="flex: 1; ">
+            <h1>我们提供的服务<br>—————————</h1>
+            <div ><img src="./images/1.gif" alt=""> 茶叶 a tea leaf <br>红茶 绿茶 黄茶 黑茶</div>
+            <div ><img src="./images/2.gif" alt=""> 茶叶 a tea leaf <br>红茶 绿茶 黄茶 黑茶</div>
+            <div ><img src="./images/3.gif" alt=""> 茶叶 a tea leaf <br>红茶 绿茶 黄茶 黑茶</div>
+
+        </div>
+    </div>
+    <div class="botom kuanDu" style="text-align: center;background-color:rgb(199, 195, 195);width: 887px;">
+        <p>在兰亭思念亲人的懒羊羊 版权所有. 并保留所有权利</p>
+    </div>
+</body>
+
+</html>
