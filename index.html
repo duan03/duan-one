@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #eee;
+        }
+
+        * {
+            border: 2px solid black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+        .baiSe{
+            background-color: white;
+        }
+        /* ----------------------------- */
+        .flex {
+            display: flex;
+        }
+        .flex1{
+            flex: 1;
+        }
+        .column{
+            flex-direction: column;
+        }
+    </style>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="flex">
+    <!-- left -->
+    <div style="width: 200px;" class="baiSe"></div>
+    <!-- right -->
+    <div class="flex1 flex column">
+        <!-- todo：top -->
+        <div class="top " style="height: 60px;"></div>
+        <div class="bottom flex1"></div>
+    </div>
+</body>
+
+</html>
