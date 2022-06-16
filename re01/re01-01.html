@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="https://s1.328888.xyz/2022/06/16/pELyP.jpg" /> -->
+    <link rel="icon" href="https://s1.328888.xyz/2022/06/16/pELyP.jpg" />
+    <title>要自信，要保持热爱</title>
+    <style>
+      /* * {
+        border: 2px solid black;
+      } */
+
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: grey;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .flex1 {
+        flex: 1;
+      }
+
+      .column {
+        flex-direction: column;
+      }
+
+      .baiSe {
+        background-color: white;
+      }
+
+      .mar {
+        margin: 8px;
+      }
+
+      .marg1 {
+        margin-top: 8px;
+      }
+
+      .marg2 {
+        margin-left: 8px;
+      }
+
+      .marg3 {
+        margin-right: 8px;
+      }
+
+      .yinYing {
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      .daoHang {
+        border: 1px solid black;
+        padding: 16px;
+        text-align: center;
+      }
+      .daoHang:hover {
+        background-color: red;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+      @media (max-width: 600px) {
+        .cebianlan {
+          display: none;
+        }
+        .neirong {
+          flex-direction: column;
+        }
+        .shuju {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="flex">
+    <!-- todo:侧边栏 -->
+    <div
+      class="baiSe yinYing flex column cebianlan"
+      style="width: 200px; z-index: 1"
+    >
+      <!-- todo:头像栏 -->
+      <div
+        class="flex"
+        style="
+          padding: 15px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #999;
+        "
+      >
+        <img
+          src="https://s1.328888.xyz/2022/06/16/pELyP.jpg"
+          width="50px"
+          height="50px"
+          alt="pELyP.jpg"
+        />
+        <div style="margin-left: 10px">懒羊羊</div>
+      </div>
+      <!-- todo:导航栏 -->
+      <div class="flex1">
+        <div class="daoHang">导航栏</div>
+        <div class="daoHang">导航栏</div>
+        <div class="daoHang">导航栏</div>
+        <div class="daoHang">导航栏</div>
+        <div class="daoHang">导航栏</div>
+      </div>
+    </div>
+    <!-- todo:主区域 -->
+    <div class="flex1 flex column">
+      <!-- todo:顶部栏 -->
+      <div class="baiSe yinYing" style="height: 80px; z-index: 3"></div>
+      <!-- todo:内容区 -->
+      <div class="flex1 flex neirong" style="overflow: auto; z-index: 1">
+        <!-- todo:主要内容区 -->
+        <div class="flex column" style="flex: 3">
+          <!-- todo:数据区 -->
+          <div class="flex shujuqu">
+            <div
+              class="baiSe mar yinYing shuju"
+              style="flex: 1; height: 110px"
+            ></div>
+            <div
+              class="baiSe mar yinYing shuju"
+              style="flex: 1; height: 110px"
+            ></div>
+            <div
+              class="baiSe mar yinYing shuju"
+              style="flex: 1; height: 110px"
+            ></div>
+            <div
+              class="baiSe mar yinYing shuju"
+              style="flex: 1; height: 110px"
+            ></div>
+          </div>
+          <div>
+            <div class="baiSe marg2 marg3 yinYing" style="height: 110px"></div>
+            <div
+              class="baiSe marg1 marg2 marg3 yinYing"
+              style="height: 110px"
+            ></div>
+            <div
+              class="baiSe marg1 marg2 marg3 yinYing"
+              style="height: 110px"
+            ></div>
+            <div
+              class="baiSe marg1 marg2 marg3 yinYing"
+              style="height: 110px"
+            ></div>
+            <div
+              class="baiSe marg1 marg2 marg3 yinYing"
+              style="height: 110px"
+            ></div>
+            <div
+              class="baiSe marg1 marg2 marg3 yinYing"
+              style="height: 110px"
+            ></div>
+            <div
+              class="baiSe marg1 marg2 marg3 yinYing"
+              style="height: 110px"
+            ></div>
+          </div>
+        </div>
+        <!-- todo:侧边内容区 -->
+        <div class="flex column" style="flex: 1">
+          <div class="baiSe mar yinYing" style="height: 200px"></div>
+          <div class="baiSe mar yinYing" style="height: 250px"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
