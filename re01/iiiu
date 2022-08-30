@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to right,green,red,yellow);
+        }
+        .box{
+            background-color: white;
+            width: 60%;
+            height: 80vh;
+            overflow-y: scroll;
+            font-size: 33px;
+            font-weight: bolder;
+            text-align: center;
+            font-family: "微软雅黑";
+            color: black;
+            line-height: 1.7;
+        }
+        .box::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p>三十年河东，三十年河西，莫欺少年穷！</p>
+        <p style="text-align: right">2022年8月30日22:22</p>
+    </div>
+    
+</body>
+</html>
