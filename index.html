@@ -1,138 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Document</title>
     <style>
-        /* * {
-            border: 2px solid black;
-        } */
-
-        body {
-            margin: 0;
-            height: 100vh;
-            background-color: #eee;
-        }
-
-        .baiSe {
-            background-color: white;
-        }
-
-        a {
-            text-decoration: none;
-            color: black;
-            font-size: 14px;
-        }
-
-        .flex {
-            display: flex;
-        }
-
-        .flex1 {
-            flex: 1;
-        }
-
-        .hezi-1 {
-            background-image: url(./images/main.jpg);
-
-        }
-
-        .center {
-            width: 887px;
-            height: 306px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .column {
-            flex-direction: column;
-        }
-
-
-        .zz a {
-            width: 100px;
-
-            margin-left: auto;
-            margin-right: 55px;
-            margin-top: 27px;
-        }
-
-        .zz a:hover {
-            color: crimson;
-            font-weight: bolder;
-        }
+      /* *{
+      border: 1px solid black;
+    } */
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #dcdcdc;
+      }
+      .baise {
+        background-color: white;
+      }
+      .box {
+        width: 877px;
+        height: 306px;
+        margin: 0 auto;
+        background-image: url(./images/main.jpg);
+        overflow: hidden;
+      }
+      .box1 {
+        width: 119px;
+        height: 171px;
+        margin-top: 27px;
+        margin-left: auto;
+        margin-right: 25px;
+      }
+      .box1 ul li a {
+        text-decoration: none;
+        list-style: none;
+        line-height: 1.7;
+        text-align: left;
+        color: rgb(55, 92, 167);
+        font-size: 18px;
+      }
+      .box1 ul li a:hover {
+        color: crimson;
+        font-size: 18px;
+        font-weight: bolder;
+      }
+      .box3 {
+        width: 877px;
+        height: 306px;
+        margin: 0 auto;
+      }
+      .center {
+        width: 877px;
+        height: 306px;
+        margin: 0 auto;
+      }
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .aa:hover {
+        font-size: 18px;
+        font-weight: bolder;
+        color: rgb(255, 0, 51);
+        /* background-color: crimson; */
+      }
+      .aa {
+        text-decoration: none;
+        color: rgb(71, 71, 71);
+        font-size: 16px;
+      }
     </style>
-</head>
-
-<body>
-    <!-- todo：1 -->
-    <div class="hezi-1 center">
-        <div class="flex column zz" style="height: 306px;">
-            <a href=""><img src="./images/all_001.gif" alt="无序列表">网站首页</a>
-            <a href=""><img src="./images/all_001.gif" alt="无序列表">关于我们</a>
-            <a href=""><img src="./images/all_001.gif" alt="无序列表">推荐品牌</a>
-            <a href=""><img src="./images/all_001.gif" alt="无序列表">茶艺人生</a>
-            <a href=""><img src="./images/all_001.gif" alt="无序列表">加盟信息</a>
-            <a href=""><img src="./images/all_001.gif" alt="无序列表">精美图库</a>
-        </div>
+  </head>
+  <body>
+    <!-- todo:1 -->
+    <div class="box">
+      <!-- todo:2 -->
+      <div class="box1">
+        <ul>
+          <li><a href="#">网站首页</a></li>
+          <li><a href="#">关于我们</a></li>
+          <li><a href="#">推荐品牌</a></li>
+          <li><a href="#">茶艺人生</a></li>
+          <li><a href="#">加盟信息</a></li>
+          <li><a href="#">精美图库</a></li>
+        </ul>
+      </div>
     </div>
-    <!-- todo：2 -->
-    <div class="flex column center">
-        <div class="flex zz" style="height: 256px;">
-            <div style="flex: 1;">
-                <h1>开源地址
-                </h1>
-                <hr size="3" color="#dcdcdc" width="70%" align="left">
-
-                <p><a href="https://github.com/duan03/duan-one">https://github.com/duan03/ <br> duan-one</a></p>
-            </div>
-            <div style="flex: 2;">
-                <h1>精品欣赏</h1>
-                <hr>
-                <marquee behavior="alternate" onMouseOut="this.start()" onmouseover="this.stop()">
-                    <div class="flex" style="text-align: center;">
-                        <div style="margin-left: 8px;">
-                            <img src="./images/j1.jpg" alt=""><br>精美茶具
-                        </div>
-                        <div style="margin-left: 8px;">
-                            <img src="./images/j2.jpg" alt=""><br>功夫茶具
-                        </div>
-                        <div style="margin-left: 8px;">
-                            <img src="./images/j2.jpg" alt=""><br>精致茶具
-                        </div>
-                        <div style="margin-left: 8px;">
-                            <img src="./images/1.jpg" alt=""><br>懒羊羊最帅了
-                        </div>
-                        <div style="margin-left: 8px;">
-                            <img src="./images/2.jpg" alt=""><br>懒羊羊最帅了
-                        </div>
-                        <div style="margin-left: 8px;">
-                            <img src="./images/3.jpg" alt=""><br>懒羊羊最帅了
-                        </div>
-                    </div>
-                </marquee>
-            </div>
-            <div style="flex: 1;">
-                <h1>精品欣赏</h1>
-                <hr>
-                <p><img src="./images/1.gif" alt="">茶叶 a tea leaf
-                <p style="margin-left: 28PX;"> 红茶 绿茶 黄茶 紫茶</p>
-                </p>
-                <p><img src="./images/2.gif" alt="">茶叶 a tea leaf
-                <p style="margin-left: 28PX;"> 红茶 绿茶 黄茶 紫茶</p>
-                </p>
-                <p><img src="./images/3.gif" alt="">茶叶 a tea leaf
-                <p style="margin-left: 28PX;"> 红茶 绿茶 黄茶 紫茶</p>
-                </p>
-            </div>
+    <!-- todo:1 -->
+    <div class="center flex column">
+      <!-- todo:2 -->
+      <div class="flex" style="height: 211px">
+        <div class="flex1 baise">
+          <p><strong style="font-size: 18px">茶界新闻</strong></p>
+          <hr size="3" color="#DCDCDC" width="60%" align="left" />
+          <p><a class="aa"  href="">阿凡提付茶钱</a></p>
+          <p><a class="aa"  href="">湖南省茶叶强势发展</a></p>
+          <p><a class="aa"  href="">阿凡提付茶钱</a></p>
+          <p><a class="aa"  href="">阿凡提付茶钱</a></p>
         </div>
-        <div class="flex1" style="text-align: center; font-size: 24px; background-color: grey; font-weight: bolder;">
-            在兰亭思念亲人的懒羊羊 版权所有 何端龙20211291 </div>
+        <div class="baise" style="flex: 2">
+          <p>
+            <strong style="font-size: 18px"
+              >精品欣赏<strong
+                style="font-size: 16px; color: rgb(174, 174, 174)"
+                >[查看更多精彩]</strong
+              ></strong
+            >
+          </p>
+          <hr size="3" color="#DCDCDC" width="60%" align="left" />
+          <marquee
+            behavior="alternate"
+            onMouseOut="this.start()"
+            onmouseover="this.stop()"
+          >
+            <div class="flex" style="text-align: center">
+              <div style="margin-left: 8px">
+                <img src="./images/j1.jpg" alt="" /><br />精美茶具
+              </div>
+              <div style="margin-left: 8px">
+                <img src="./images/j2.jpg" alt="" /><br />功夫茶具
+              </div>
+              <div style="margin-left: 8px">
+                <img src="./images/j2.jpg" alt="" /><br />精致茶具
+              </div>
+              <div style="margin-left: 8px">
+                <img src="./images/1.jpg" alt="" /><br />懒羊羊最帅了
+              </div>
+              <div style="margin-left: 8px">
+                <img src="./images/2.jpg" alt="" /><br />懒羊羊最帅了
+              </div>
+              <div style="margin-left: 8px">
+                <img src="./images/3.jpg" alt="" /><br />懒羊羊最帅了
+              </div>
+            </div>
+          </marquee>
+        </div>
+        <div class="flex1 baise">
+          <p><strong style="font-size: 18px">我们提供的服务</strong></p>
+          <hr size="3" color="#DCDCDC" width="60%" align="left" />
+          <p style="font-size: 14px">
+            <img src="./images/1.gif" alt="" /><strong>茶叶 a tea of</strong>
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;红茶 绿茶 黑茶 黄茶
+          </p>
+          <p style="font-size: 14px">
+            <img src="./images/2.gif" alt="" /><strong>茶叶 a tea of</strong>
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;红茶 绿茶 黑茶 黄茶
+          </p>
+          <p style="font-size: 14px">
+            <img src="./images/3.gif" alt="" /><strong>茶叶 a tea of</strong>
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;红茶 绿茶 黑茶 黄茶
+          </p>
+        </div>
+      </div>
+      <!-- todo:2 -->
+      <div
+        class=" baise"
+        style="background-color: rgb(193, 191, 191)"
+        align="center"
+      >
+        <strong style="line-height: 2; font-size: 18px"
+          >Copyright
+          &nbsp;2005-2009版权所有，并保持所有权利&nbsp;Email&nbsp;1446396310@qq.com</strong
+        >
+      </div>
     </div>
-
-
-</body>
-
+  </body>
 </html>
